@@ -1,10 +1,39 @@
 [project]
 name = "ex04-reverse-engineering"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reverse engineering and graph-guided bug detection with Grphify and LangGraph"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "anthropic>=0.111.0",
     "graphifyy>=0.8.44",
+    "langgraph>=1.2.6",
 ]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mathsquiz"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["src/main.py", "*/tests/*"]
+
+[tool.coverage.report]
+fail_under = 85
