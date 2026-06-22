@@ -1,0 +1,22 @@
+{
+  "mathsquiz-step1.py": {
+    "mtime": 1782152035.4500422,
+    "ast_hash": "3c75ac66a9ba4e01f4155d2177f753d7",
+    "semantic_hash": "3c75ac66a9ba4e01f4155d2177f753d7"
+  },
+  "mathsquiz-step2.py": {
+    "mtime": 1782152035.4500422,
+    "ast_hash": "12eadd3622e950be58b5af6e6aa80135",
+    "semantic_hash": "12eadd3622e950be58b5af6e6aa80135"
+  },
+  "mathsquiz-step3.py": {
+    "mtime": 1782152035.4500422,
+    "ast_hash": "8c91301f4ef1745674f3d77ee12bf8b4",
+    "semantic_hash": "8c91301f4ef1745674f3d77ee12bf8b4"
+  },
+  "mathsquiz.py": {
+    "mtime": 1782152035.453557,
+    "ast_hash": "2e22031f319fa7f104ada5be48010f6d",
+    "semantic_hash": "2e22031f319fa7f104ada5be48010f6d"
+  }
+}

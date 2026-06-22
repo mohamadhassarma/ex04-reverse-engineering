@@ -1,0 +1,139 @@
+{
+  "communities": {
+    "0": [
+      "readme_concept_functions",
+      "readme_concept_random_numbers",
+      "readme_concept_refactoring",
+      "readme_objective_functions",
+      "readme_objective_random_numbers"
+    ],
+    "1": [
+      "c_users_dell_ex04_reverse_engineering_data_broken_python_mathsquiz_mathsquiz_step2_py",
+      "mathsquiz_mathsquiz_step2_ask_question",
+      "mathsquiz_mathsquiz_step2_print_final_scores",
+      "mathsquiz_mathsquiz_step2_welcome_message"
+    ],
+    "2": [
+      "c_users_dell_ex04_reverse_engineering_data_broken_python_mathsquiz_mathsquiz_step3_py",
+      "mathsquiz_mathsquiz_step3_ask_question",
+      "mathsquiz_mathsquiz_step3_print_final_scores",
+      "mathsquiz_mathsquiz_step3_welcome_message"
+    ],
+    "3": [
+      "readme_mathsquiz_app",
+      "readme_mathsquiz_finalpy",
+      "readme_mathsquizpy",
+      "readme_objective_fix_bugs"
+    ],
+    "4": [
+      "readme_concept_user_input",
+      "readme_objective_user_input"
+    ],
+    "5": [
+      "c_users_dell_ex04_reverse_engineering_data_broken_python_mathsquiz_mathsquiz_py"
+    ],
+    "6": [
+      "c_users_dell_ex04_reverse_engineering_data_broken_python_mathsquiz_mathsquiz_step1_py"
+    ]
+  },
+  "cohesion": {
+    "0": 0.5,
+    "1": 0.5,
+    "2": 0.5,
+    "3": 0.8333333333333334,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "readme_mathsquiz_app",
+      "label": "Maths Quiz Application",
+      "degree": 6
+    },
+    {
+      "id": "readme_concept_refactoring",
+      "label": "Concept: Refactoring",
+      "degree": 4
+    },
+    {
+      "id": "readme_mathsquizpy",
+      "label": "mathsquiz.py",
+      "degree": 3
+    },
+    {
+      "id": "readme_objective_functions",
+      "label": "Objective: Reduce Repetition with Functions",
+      "degree": 3
+    },
+    {
+      "id": "readme_mathsquiz_finalpy",
+      "label": "mathsquiz-final.py",
+      "degree": 2
+    },
+    {
+      "id": "readme_objective_fix_bugs",
+      "label": "Objective: Fix Bugs in mathsquiz.py",
+      "degree": 2
+    },
+    {
+      "id": "readme_objective_random_numbers",
+      "label": "Objective: Use Random Numbers and Variables",
+      "degree": 2
+    },
+    {
+      "id": "readme_objective_user_input",
+      "label": "Objective: Allow User to Choose Times Table via Input",
+      "degree": 2
+    },
+    {
+      "id": "readme_concept_functions",
+      "label": "Concept: Functions",
+      "degree": 2
+    },
+    {
+      "id": "readme_concept_random_numbers",
+      "label": "Concept: Random Numbers",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Concept: Refactoring",
+      "target": "Concept: User Input",
+      "source_files": [
+        "README.md",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "note": "Bridges community 0 \u2192 community 4"
+    },
+    {
+      "source": "Maths Quiz Application",
+      "target": "Objective: Reduce Repetition with Functions",
+      "source_files": [
+        "README.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "note": "Bridges community 3 \u2192 community 0"
+    },
+    {
+      "source": "Maths Quiz Application",
+      "target": "Objective: Allow User to Choose Times Table via Input",
+      "source_files": [
+        "README.md",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "note": "Bridges community 3 \u2192 community 4"
+    }
+  ],
+  "tokens": {
+    "input": 922,
+    "output": 2554
+  }
+}
