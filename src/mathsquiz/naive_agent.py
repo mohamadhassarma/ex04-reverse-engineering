@@ -6,6 +6,7 @@ This is what we compare against to prove token efficiency.
 
 import time
 from pathlib import Path
+
 from anthropic import Anthropic
 
 CODE_DIR = Path("data/broken-python/mathsquiz")
@@ -81,4 +82,3 @@ List all bugs found. For each: bug number, location, problem, fix."""
 
 if __name__ == "__main__":
     run_naive_agent()
-    

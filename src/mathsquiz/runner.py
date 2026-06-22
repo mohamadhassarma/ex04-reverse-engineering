@@ -4,16 +4,16 @@ Imports nodes from agent.py and compiles the workflow.
 """
 
 import time
-from anthropic import Anthropic
-from langgraph.graph import StateGraph, END
+
+from langgraph.graph import END, StateGraph
 
 from mathsquiz.agent import (
     AgentState,
-    load_graph,
-    read_obsidian_index,
-    read_obsidian_hot,
-    read_target_code,
     analyze_bugs,
+    load_graph,
+    read_obsidian_hot,
+    read_obsidian_index,
+    read_target_code,
 )
 
 
@@ -81,4 +81,3 @@ def run_graph_agent() -> dict:
 
 if __name__ == "__main__":
     run_graph_agent()
-    

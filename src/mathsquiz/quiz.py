@@ -58,7 +58,7 @@ def print_final_scores(score: int, total: int) -> None:
         score: Number of correct answers.
         total: Total number of questions.
     """
-    print(f"That's all the questions done. So...what was your score...?")
+    print("That's all the questions done. So...what was your score...?")
     print(f"You scored {score} points out of a possible {total}.")
 
     if score < 5:
@@ -91,4 +91,3 @@ def run_quiz() -> int:
 
 if __name__ == "__main__":
     run_quiz()
-    
